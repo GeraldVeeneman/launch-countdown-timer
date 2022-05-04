@@ -1,0 +1,46 @@
+/* Colours */
+:root {
+    // Primary
+    --grayish-blue: hsl(237, 18%, 59%);
+    --soft-red: hsl(345, 95%, 68%);
+
+    // Neutral
+    --white: hsl(0, 0%, 100%);
+    --dark-desaturated-blue: hsl(236, 21%, 26%);
+    --very-dark-blue: hsl(235, 16%, 14%);
+    --very-dark-mostly-black-blue: hsl(234, 17%, 12%);
+}
+
+/* Typography */
+
+/* Fonts */
+$font-primary:'Red Hat Text', sans-serif;
+
+/* Media Query break points */
+$bp-desktop: 970px; // minimum pixels desktop view
+
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; // 1rem = 10px (10px/16px = 62.5%)
+    box-sizing: border-box;
+}
+
+body {
+    
+    font: {
+        family: $font-primary;
+        size: 1.4rem;
+        weight: 700;
+    }
+}
