@@ -35,7 +35,7 @@ body {
   font-size: 1.4rem;
   font-weight: 700;
   background-color: var(--very-dark-mostly-black-blue);
-  background-image: url("/images/pattern-hills.svg"), url("/images/bg-stars.svg");
+  background-image: url("images/pattern-hills.svg"), url("images/bg-stars.svg");
   background-repeat: no-repeat;
   background-position: bottom center, top center;
   background-size: 100% 25vh, contain;
