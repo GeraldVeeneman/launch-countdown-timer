@@ -49,7 +49,7 @@ body {
 
     background: {
         color: var(--very-dark-mostly-black-blue);
-        image: url('images/pattern-hills.svg'), url("images/bg-stars.svg");
+        image: url('../images/pattern-hills.svg'), url("../images/bg-stars.svg");
         repeat: no-repeat;
         position: bottom center, top center;
         size: 100% 25vh, contain;
