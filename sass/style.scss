@@ -37,10 +37,76 @@ html {
 }
 
 body {
+
+    width: 100vw;
+    height: 100vh;
     
     font: {
         family: $font-primary;
         size: 1.4rem;
         weight: 700;
     }
+
+    background: {
+        color: var(--very-dark-mostly-black-blue);
+        image: url('/images/pattern-hills.svg'), url("/images/bg-stars.svg");
+        repeat: no-repeat;
+        position: bottom center, top center;
+        size: 100% 25vh, contain;
+    }
 }
+
+.header {
+    color: var(--white);
+
+    font: {
+        size: 1.8rem;
+    }
+
+    text: {
+        align: center;
+        transform: uppercase;
+    }
+
+    letter-spacing: 0.5rem;
+    margin-bottom: 6rem;
+
+}
+
+.container {
+    padding: 14rem 2.5rem 5rem;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    .counter {
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        gap: 3rem;
+
+        &__box {
+            
+
+            .digits {
+                color: var(--soft-red);
+                background-color: var(--dark-desaturated-blue);
+
+            }
+
+            .desc {
+                color: var(--grayish-blue)
+
+            }
+        }
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 3.5rem;
+
+    }
+}
+
+

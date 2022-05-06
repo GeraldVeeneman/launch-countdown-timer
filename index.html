@@ -16,31 +16,37 @@
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+  
   <div class="container">
     <header class="header">We're launching soon</header>
-    <div class="box-container">
-      <div class="box box-days">
-        <div class="box-day__digits"></div>
-        <div class="box-days__desc">days</div>
+    <div class="counter">
+      <div class="counter__box box-days">
+        <div class="digits">08</div>
+        <div class="desc">days</div>
       </div>
-      <div class="box box-hours">
-        <div class="box-hours__digits"></div>
-        <div class="box-hours__desc">hours</div>
+      <div class="counter__box counter__box--hours">
+        <div class="digits">23</div>
+        <div class="desc">hours</div>
       </div>
-      <div class="box box-minutes">
-        <div class="box-minutes__digits"></div>
-        <div class="box-minutes__desc">minutes</div>
+      <div class="counter__box counter__box--minutes">
+        <div class="digits">55</div>
+        <div class="desc">minutes</div>
       </div>
-      <div class="box box-seconds">
-        <div class="box-seconds__digits"></div>
-        <div class="box-seconds__desc">seconds</div>
-      </div>
-      <div class="social-icons">
-        <div class="facebook"><img src="images/icon-facebook.svg" alt="facebook"/></div>
-        <div class="pinterest"><img src="images/icon-pinterest.svg" alt="pinterest"/></div>
-        <div class="instagram"><img src="images/icon-instagram.svg" alt="instagram"/></div>
-      </div>
-    </div>
+      <div class="counter__box counter__box--seconds">
+        <div class="digits">41</div>
+        <div class="desc">seconds</div>
+      </div>   
+    
+    </div> <!-- End div counter -->
+
+    <footer class="social-icons">
+        <img src="images/icon-facebook.svg" alt="facebook"/>
+        <img src="images/icon-pinterest.svg" alt="pinterest"/>
+        <img src="images/icon-instagram.svg" alt="instagram"/>
+    </footer>
+
+    </div> <!-- End div container -->
+    
     <script src="js/functions.js"></script>  
 </body>
 </html>
